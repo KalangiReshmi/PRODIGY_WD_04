@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reshmi's Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="hero">
+            <img src="r.jpg" alt="Reshmi">
+            <h1>Hi, I'm Kalangi Reshmi, a Web Developer & UI/UX Designer</h1>
+            <p>Creating stunning and functional websites with a focus on user experience.</p>
+        </div>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="about">
+            <h2>About Me</h2>
+            <p>I am a third-year B.Tech student in Computer Science and Engineering at KL University. With a passion for web development and UI/UX design, I have undertaken a specialization in UI/UX design.</p>
+            <h3>Education</h3>
+            <p>B.Tech in Computer Science and Engineering<br>
+            KL University</p>
+            <h3>Professional Experience</h3>
+            <p>Intern at Codsoft<br>
+            Intern at Prodigy</p>
+        </section>
+
+        <section id="projects">
+            <h2>Projects</h2>
+            <div class="project">
+                <h3>Online Art Gallery</h3>
+                <p>This project is developed using the MERN (MongoDB, Express, React, Node.js) stack. It is an online platform that allows artists to showcase and sell their artwork. Features include user authentication, a responsive design, and an intuitive interface for uploading and browsing art pieces.</p>
+            </div>
+            <div class="project">
+                <h3>Campus Placement Management System</h3>
+                <p>This project is developed using Python and Django. It is a system designed to manage and streamline the campus placement process. Key features include student registration, company profiles, job postings, application tracking, and interview scheduling.</p>
+            </div>
+        </section>
+
+        <section id="skills">
+            <h2>Skills</h2>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>Java</li>
+                <li>Python</li>
+                <li>C</li>
+                <li>Web Development</li>
+                <li>UI/UX Design</li>
+            </ul>
+        </section>
+
+        <section id="contact">
+            <h2>Contact</h2>
+            <form action="contact-form-handler.php" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </section>
+    </main>
+    <!-- Add this in the head section of your HTML file -->
+<script src="script.js" defer></script>
+
+    <footer>
+        <p>&copy; 2024 Reshmi. All rights reserved.</p>
+    </footer>
+</body>
+</html>
